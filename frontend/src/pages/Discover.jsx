@@ -7,7 +7,7 @@ import {
   X,
 } from "lucide-react";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://mo-re-01or.onrender.com";
 
 function Discover({setActivePage, setSelectedMovieId}) {
   const [movies, setMovies] = useState([]);
